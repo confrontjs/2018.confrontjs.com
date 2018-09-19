@@ -10,7 +10,7 @@
     // Go go go!!1
     root.addEventListener('load', () => {
         const countdown = root.countdown;
-        const FORMAT = countdown.MONTHS | countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS;
+        const FORMAT = countdown.MONTHS | countdown.DAYS | countdown.HOURS | countdown.MINUTES;
 
         countdown.setLabels(
             ' millisecond| second| minute| hour| day| week| month| year| decade| century| millennium',
