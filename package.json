@@ -14,9 +14,10 @@
         "start": "http-server ./ -d false -g",
         "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
     },
-    "dependencies": {},
-    "devDependencies": {
+    "dependencies": {
         "http-server": "^0.11.1"
+    },
+    "devDependencies": {
     },
     "repository": {
         "type": "git",
