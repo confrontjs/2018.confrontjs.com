@@ -1,0 +1,8 @@
+.jumbotron {
+    background: inherit;
+    margin-bottom: 0;
+}
+
+.navbar-compact {
+    height: 60px;
+}

@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+:root {
+    --master-color: #a64ac9;
+    --slave-color: #17e9e0;
+    --mix-color: #5e99d3;
+}
+
+.master-color {
+    color: var(--master-color);
+}
+
+.slave-color {
+    color: var(--slave-color);
+}
+
+.mix-color {
+    color: var(--mix-color);
+}
+
+body {
+    font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--mix-color);
+}
+
+a {
+    color: var(--master-color);
+}
+
+a:hover {
+    color: var(--slave-color);
+}
+
+hr {
+    margin: 0;
+}
