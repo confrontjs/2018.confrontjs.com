@@ -4,6 +4,8 @@
 
 ## Development
 
+<kbd>Copy + paste</kbd>
+
 ```bash
 git push heroku master
 ```

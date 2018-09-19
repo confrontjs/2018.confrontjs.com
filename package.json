@@ -10,10 +10,13 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
+        "start": "http-server ./ -d false -g",
         "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
     },
     "dependencies": {},
-    "devDependencies": {},
+    "devDependencies": {
+        "http-server": "^0.11.1"
+    },
     "repository": {
         "type": "git",
         "url": "git@github.com:piecioshka/www.confrontjs.com.git"
