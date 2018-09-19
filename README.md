@@ -4,8 +4,12 @@
 
 ## Development
 
+No dependencies are required to install. Open `index.html` in browser.
+
+## Deployment
+
 <kbd>Copy + paste</kbd>
 
 ```bash
-git push heroku master
+npm run deploy
 ```

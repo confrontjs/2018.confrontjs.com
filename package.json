@@ -1,7 +1,7 @@
 {
     "private": true,
-    "name": "www.confrontjs.com",
-    "description": "",
+    "name": "confrontjs-homepage",
+    "description": "Front-end conference 2018 in Warsaw",
     "version": "1.0.0",
     "license": "MIT",
     "author": {
@@ -10,6 +10,7 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
+        "deploy": "git push -f heroku master",
         "start": "http-server ./ -d false -g",
         "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
     },
