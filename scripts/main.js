@@ -26,4 +26,12 @@
         $navbarMenu.classList.toggle('show');
     });
 
+    function onHashChangeHandler() {
+        const hash = location.hash;
+        console.log('hash', hash);
+        gtag('event', 'hashchange', { value: hash });
+    }
+
+    window.addEventListener('hashchange', onHashChangeHandler);
+
 })();
