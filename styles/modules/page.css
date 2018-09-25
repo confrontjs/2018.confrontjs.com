@@ -1,5 +1,15 @@
 @charset "utf-8";
 
+p a[href^="http"] {
+    background: url('../../images/icons-external-links/external-link-purple.png') no-repeat right center;
+    padding-right: 20px !important;
+}
+
+.navbar a[href^="http"] {
+    background: url('../../images/icons-external-links/external-link-white.png') no-repeat right center;
+    padding-right: 20px !important;
+}
+
 .logo {
     width: 500px;
 }
