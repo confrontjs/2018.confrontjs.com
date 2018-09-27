@@ -26,6 +26,6 @@
     root.addEventListener('load', () => {
         startCarousel('.carousel-venue');
         startCarousel('.carousel-organizers');
-    });
+    }, { passive: true });
 
 })(window);

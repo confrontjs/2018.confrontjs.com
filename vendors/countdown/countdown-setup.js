@@ -23,6 +23,6 @@
             }
         );
         countdown(START_DATE, render, FORMAT, NaN, 0);
-    });
+    }, { passive: true });
 
 })(window);

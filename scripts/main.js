@@ -20,11 +20,11 @@
     }
 
     updateCompactClass();
-    window.addEventListener('scroll', updateCompactClass);
+    window.addEventListener('scroll', updateCompactClass, { passive: true });
 
     $navbarToggler.addEventListener('click', () => {
         $navbarMenu.classList.toggle('show');
-    });
+    }, { passive: true });
 
     function onHashChangeHandler() {
         const hash = location.hash;
@@ -32,6 +32,6 @@
         gtag('event', 'hashchange', { value: hash });
     }
 
-    window.addEventListener('hashchange', onHashChangeHandler);
+    window.addEventListener('hashchange', onHashChangeHandler, { passive: true });
 
 })();

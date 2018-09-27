@@ -1,6 +1,6 @@
 {
     "short_name": "ConFrontJS",
-    "name": "ConFrontJS Conference",
+    "name": "ConFrontJS 2018",
     "icons": [
         {
             "src": "images/icon/144x144.png",
@@ -15,6 +15,11 @@
         {
             "src": "images/icon/256x256.png",
             "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon/512x512.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
