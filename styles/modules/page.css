@@ -45,6 +45,10 @@ p a[href^="http"] {
     padding-top: 0;
 }
 
+#why img {
+    width: 180px;
+}
+
 footer a:hover {
     text-decoration: none;
 }
