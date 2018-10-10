@@ -52,3 +52,19 @@ p a[href^="http"] {
 footer a:hover {
     text-decoration: none;
 }
+
+.sponsor-gold-item img {
+    width: 100%;
+}
+
+.sponsor-silver-item img {
+    width: 80%;
+}
+
+.sponsor-bronze-item img {
+    width: 60%;
+}
+
+.partner-item img {
+    width: 50%;
+}
