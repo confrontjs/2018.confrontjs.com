@@ -15,7 +15,7 @@ class CodeOfConductComponent extends Component {
                 </p>
 
                 <p>
-                    Please visit
+                    Please visit&nbsp;
                     <a
                             href="http://berlincodeofconduct.org"
                             target="_blank"
