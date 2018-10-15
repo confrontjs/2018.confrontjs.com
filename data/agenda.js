@@ -54,10 +54,10 @@ module.exports = {
     '16:30': talks[10],
     '17:00': talks[11],
     '17:30': {
-        title: 'Winner contest announcement'
+        title: 'Contest’s winner announcement'
     },
     '17:45': {
-        title: 'Close conference'
+        title: 'Conference closing'
     },
     '18:00': {
         title: 'After party'

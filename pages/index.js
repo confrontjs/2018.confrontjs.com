@@ -22,6 +22,9 @@ class Homepage extends Component {
     render() {
         return (
             <div id="page">
+                <Head>
+                    <title>ConFrontJS 2018 • Front-end Conference at 2018-10-29</title>
+                </Head>
                 <MenuComponent/>
                 <IntroComponent />
                 <CountdownComponent />
