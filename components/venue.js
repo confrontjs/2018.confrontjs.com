@@ -33,9 +33,9 @@ class VenueComponent extends Component {
 
                 <div className="carousel">
                     <ReactSiema {...options}>
+                        <Slide src="static/photos/campus-warsaw/IMG_9885.jpg" />
                         <Slide src="static/photos/campus-warsaw/IMG_9876.jpg" />
                         <Slide src="static/photos/campus-warsaw/IMG_0085.jpg" />
-                        <Slide src="static/photos/campus-warsaw/IMG_9885.jpg" />
                         <Slide src="static/photos/campus-warsaw/IMG_0057.jpg" />
                         <Slide src="static/photos/campus-warsaw/IMG_0091.jpg" />
                     </ReactSiema>
