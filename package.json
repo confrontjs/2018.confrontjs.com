@@ -10,15 +10,30 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
+        "clear": "rm -rf .next",
+        "clear:all": "rm -rf node_modules && npm run clear",
+        "AA_predeploy": "npm version patch && git push && git push --tags",
         "deploy": "git push -f heroku master",
-        "start": "http-server ./ -d false -g",
-        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
+        "dev": "next",
+        "build": "next build",
+        "start": "next start -p $PORT",
+        "heroku-postbuild": "next build",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "http-server": "^0.11.1"
+        "@zeit/next-sass": "^1.0.1",
+        "bootstrap": "^4.1.3",
+        "capitalize": "^2.0.0",
+        "classnames": "^2.2.6",
+        "countdown": "^2.6.0",
+        "next": "^7.0.2",
+        "node-sass": "^4.9.3",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "react-siema": "^1.0.1",
+        "slug": "^0.9.1"
     },
-    "devDependencies": {
-    },
+    "devDependencies": {},
     "repository": {
         "type": "git",
         "url": "git@github.com:piecioshka/www.confrontjs.com.git"

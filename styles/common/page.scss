@@ -1,0 +1,58 @@
+.logo {
+    width: 500px;
+}
+
+@media (max-width: 500px) {
+    .logo {
+        width: 100%;
+    }
+}
+
+.headline {
+    color: #000;
+}
+
+.countdown {
+    font-size: 38px;
+}
+
+.countdown .countdown-number {
+    background: #000;
+    color: #fff;
+    padding: 0 10px;
+    font-family: Lato, sans-serif;
+}
+
+.carousel {
+    max-height: 640px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.intro {
+    padding-top: 0;
+}
+
+#why img {
+    width: 180px;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.sponsor-gold-item img {
+    width: 100%;
+}
+
+.sponsor-silver-item img {
+    width: 80%;
+}
+
+.sponsor-bronze-item img {
+    width: 60%;
+}
+
+.partner-item img {
+    width: 40%;
+}
