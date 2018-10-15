@@ -1,6 +1,7 @@
 import '../styles/main.scss';
 
 import React, { Component } from 'react';
+import Head from 'next/head';
 
 import MenuComponent from '../components/menu';
 import IntroComponent from '../components/intro';
