@@ -12,7 +12,7 @@
     "scripts": {
         "clear": "rm -rf .next",
         "clear:all": "rm -rf node_modules && npm run clear",
-        "AA_predeploy": "npm version patch && git push && git push --tags",
+        "predeploy": "npm version patch && git push && git push --tags",
         "deploy": "git push -f heroku master",
         "dev": "next",
         "build": "next build",
