@@ -86,7 +86,7 @@ class MenuComponent extends Component {
                                 </a>
                             </li>
                             <li className="nav-item text-sm-right">
-                                <a className="nav-link" href="#speakers">
+                                <a className="nav-link" href="/speakers">
                                     Speakers
                                 </a>
                             </li>

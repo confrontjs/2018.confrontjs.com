@@ -10,7 +10,7 @@ class ContactComponent extends Component {
 
                 <div>
                     <p className="lead">
-                        If you have any questions, write email to us:
+                        If you have any questions, write email to us:&nbsp;
                         <a href="mailto:confrontjs@warsawjs.com">
                             confrontjs@warsawjs.com
                         </a>

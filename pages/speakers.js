@@ -27,15 +27,7 @@ class Homepage extends Component {
                     <title>ConFrontJS 2018 • Front-end Conference at 2018-10-29</title>
                 </Head>
                 <MenuComponent/>
-                <IntroComponent />
-                <CountdownComponent />
-                <VenueComponent />
-                <AgendaComponent />
-                <DeadlineComponent />
-                <WhyComponent />
-                <SponsorsComponent />
-                <PartnersComponent />
-                <OrganizersComponent />
+                <SpeakersComponent />
                 <ContactComponent />
                 <NewsletterComponent />
                 <CodeOfConductComponent />
