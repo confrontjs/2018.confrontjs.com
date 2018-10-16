@@ -3,9 +3,16 @@ module.exports = {
     position: 'Front-end Architect @ Shedul',
     bio: {
         en: `
-            JavaScript enthusiast with passion to the best tools for creating
-            web applications. Active member of Warsaw JavaScript meetup groups.
-            Author of open source projects.
+            Dominik is a Frontend Architect with over eight years 
+            of experience in JavaScript. However, his real passion 
+            is creating extraordinary developer tools for the Web. 
+            From the beginning of his programming journey, he wanted 
+            to be a creator. Using edge technologies, he builds open 
+            source projects, gives talks about them and shares his 
+            unique concepts with the community. His latest project 
+            - hybrids (UI library for creating web components) - 
+            aims to beat the world of developer tools with simple 
+            and functional API.
         `
     },
     contact: {
