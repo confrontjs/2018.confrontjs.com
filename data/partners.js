@@ -26,5 +26,9 @@ module.exports = [
     {
         name: "CodeYama",
         url: "http://codeyama.yt"
+    },
+    {
+        name: "CoreDump Cracow 2018",
+        url: "http://coredump.events/2018/"
     }
 ];
