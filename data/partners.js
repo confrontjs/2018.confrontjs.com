@@ -54,5 +54,9 @@ module.exports = [
     {
         name: "Angular Love",
         url: "http://www.angular.love/"
+    },
+    {
+        name: "Eduweb",
+        url: "https://eduweb.pl/"
     }
 ];
