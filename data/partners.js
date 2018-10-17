@@ -42,5 +42,9 @@ module.exports = [
     {
         name: "Kot Źródłowy",
         url: "https://kot-zrodlowy.pl/"
+    },
+    {
+        name: "Angular Berlin",
+        url: "https://www.meetup.com/AngularJS-Meetup-Berlin/"
     }
 ];
