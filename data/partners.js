@@ -10,5 +10,9 @@ module.exports = [
     {
         name: "Womenin Tech Chat",
         url: "https://twitter.com/WomeninTechChat"
+    },
+    {
+        name: "Comandeer",
+        url: "https://blog.comandeer.pl"
     }
 ];
