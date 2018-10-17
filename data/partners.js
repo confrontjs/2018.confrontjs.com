@@ -22,5 +22,9 @@ module.exports = [
     {
         name: "Gamedev.js",
         url: "https://gamedevjs.com/"
+    },
+    {
+        name: "CodeYama",
+        url: "http://codeyama.yt"
     }
 ];
