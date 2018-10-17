@@ -2,7 +2,7 @@ module.exports = [
     require('./people/dominik-lubanski'),
     require('./people/joel-lord'),
     require('./people/lukasz-stankiewicz'),
-    require('./people/marcos-iglesias'),
+    // require('./people/evojam-developer'),
     require('./people/michal-warda'),
     require('./people/miszo-radomski'),
     require('./people/nadia-ginalska'),

@@ -52,26 +52,19 @@ module.exports = [
         ]
     },
     {
-        title: "Performance Budgets: The what, why and how",
+        title: "TBA",
         lang: "en",
         abstract: `
         <p>
-            Are too many design and product considerations bringing you
-            down? Learn how to simplify the conversation around feature
-            development with Performance Budgets! In this talk, you’ll hear
-            about why they are useful, how to set them up, track them and
-            use them to keep your site performance under control!
+
         </p>
         `,
-        category: "Web Performance",
+        category: "",
         tags: [
-            "JavaScript",
-            "CSS",
-            "HTML",
-            "Browsers"
+
         ],
         speakers: [
-            require('./people/marcos-iglesias'),
+            require('./people/evojam-developer'),
         ]
     },
     {
