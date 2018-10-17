@@ -17,13 +17,11 @@ export default class extends PureComponent {
 
     render() {
         return (
-            <div className={ this.props.className }>
-                <img
-                        className="img-thumbnail rounded-circle"
-                        src={ this.getAvatarUrl() }
-                        alt={ this.getAlternativeText() }
-                />
-            </div>
+            <img
+                className="img-thumbnail rounded-circle"
+                src={this.getAvatarUrl()}
+                alt={this.getAlternativeText()}
+            />
         )
     }
 

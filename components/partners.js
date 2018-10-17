@@ -10,10 +10,10 @@ class PartnersComponent extends Component {
             <section className="container jumbotron" id="partners">
                 <h2 className="mb-5">Partners</h2>
 
-                <div className="row justify-content-around text-center">
+                <div className="text-center">
                     { partners.map((partner, index) =>
                         <div
-                            className="d-inline py-1 partner-item"
+                            className="d-inline-block py-1 mx-3 partner-item"
                             key={ index }
                         >
                             <a

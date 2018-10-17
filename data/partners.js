@@ -18,5 +18,9 @@ module.exports = [
     {
         name: "PyWaw",
         url: "https://pywaw.org/"
+    },
+    {
+        name: "Gamedev.js",
+        url: "https://gamedevjs.com/"
     }
 ];
