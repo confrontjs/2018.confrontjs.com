@@ -14,5 +14,9 @@ module.exports = [
     {
         name: "Comandeer",
         url: "https://blog.comandeer.pl"
+    },
+    {
+        name: "PyWaw",
+        url: "https://pywaw.org/"
     }
 ];

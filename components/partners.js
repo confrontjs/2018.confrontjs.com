@@ -13,7 +13,7 @@ class PartnersComponent extends Component {
                 <div className="row justify-content-around text-center">
                     { partners.map((partner, index) =>
                         <div
-                            className="col-lg-3 col-sm-6 py-1 partner-item"
+                            className="d-inline py-1 partner-item"
                             key={ index }
                         >
                             <a
