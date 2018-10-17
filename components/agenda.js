@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import PersonAvatar from '../components/person-avatar';
 import AgendaIcon from '../components/agenda-icon';
+import Tags from '../components/tags';
 
 let agenda = require('../data/agenda');
 agenda = Object.keys(agenda).map((time) => {
@@ -32,24 +33,22 @@ class AgendaComponent extends Component {
                                 }
                             </div>
                             <div className="col-lg-7 pt-4">
-                                { item.tags && item.tags.map((tag, index) =>
-                                    <span
-                                        className="badge badge-warning mr-1"
-                                        key={ index }
-                                    >
-                                        { tag }
-                                    </span>
-                                )}
-
                                 { item.speakers &&
                                     <h3 className="h3">
                                         { item.speakers[0].name }
                                     </h3>
                                 }
+                                { item.speakers &&
+                                    <h6 className="h6 text-warning">
+                                        { item.speakers[0].position }
+                                    </h6>
+                                }
 
                                 <h2 className="h2">
                                     { item.title }
                                 </h2>
+
+                                <Tags tags={ item.tags }/>
 
                                 <div
                                         className="abstract"
