@@ -41,6 +41,6 @@ module.exports = [
     },
     {
         name: "Kot Źródłowy",
-        url: "https://www.facebook.com/kotzrodlowy/"
+        url: "https://kot-zrodlowy.pl/"
     }
 ];
