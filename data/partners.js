@@ -30,5 +30,9 @@ module.exports = [
     {
         name: "CoreDump Cracow 2018",
         url: "http://coredump.events/2018/"
+    },
+    {
+        name: "Jakub Jurkian",
+        url: "https://jakubjurkian.pl/"
     }
 ];
