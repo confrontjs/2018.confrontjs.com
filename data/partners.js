@@ -34,5 +34,9 @@ module.exports = [
     {
         name: "Jakub Jurkian",
         url: "https://jakubjurkian.pl/"
+    },
+    {
+        name: "Frontem",
+        url: "https://www.facebook.com/frontempl/"
     }
 ];
