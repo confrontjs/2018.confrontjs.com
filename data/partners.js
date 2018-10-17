@@ -32,6 +32,10 @@ module.exports = [
         url: "http://coredump.events/2018/"
     },
     {
+        name: "Helion",
+        url: "https://helion.pl"
+    },
+    {
         name: "Jakub Jurkian",
         url: "https://jakubjurkian.pl/"
     },
