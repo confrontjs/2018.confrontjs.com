@@ -25,14 +25,14 @@ class MyDocument extends Document {
                     <meta property="og:type" content="website"/>
                     <meta property="og:title" content="ConFrontJS 2018 • Front-end Conference at 2018-10-29"/>
                     <meta property="og:description" content="ConFrontJS is organised by the WarsawJS team."/>
-                    <meta property="og:image" content="https://confrontjs.com/images/social-banner.png"/>
+                    <meta property="og:image" content="https://confrontjs.com/static/images/social-banner.png"/>
 
                     <meta name="twitter:card" content="summary_large_image"/>
                     <meta name="twitter:site" content="@confrontjs"/>
                     <meta name="twitter:creator" content="@confrontjs"/>
                     <meta name="twitter:title" content="ConFrontJS 2018 • Front-end Conference at 2018-10-29"/>
                     <meta name="twitter:description" content="ConFrontJS is organised by the WarsawJS team."/>
-                    <meta name="twitter:image" content="https://confrontjs.com/images/social-banner.png"/>
+                    <meta name="twitter:image" content="https://confrontjs.com/static/images/social-banner.png"/>
 
                     <link rel="manifest" href="/static/manifest.json"/>
                     <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon"/>
