@@ -6,4 +6,5 @@ module.exports = [
     { name: "Sumo Logic", level: "bronze", url: "https://www.sumologic.com/" },
     { name: "Visuality", level: "bronze", url: "https://www.visuality.pl/" },
     { name: "WalkMe", level: "silver", url: "https://www.walkme.com/" },
+    { name: "Evojam", level: "silver", url: "https://evojam.com/" },
 ];
