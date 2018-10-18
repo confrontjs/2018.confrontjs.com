@@ -64,7 +64,7 @@ module.exports = [
 
         ],
         speakers: [
-            require('./people/evojam-developer'),
+            require('./people/marcin-wadon'),
         ]
     },
     {
