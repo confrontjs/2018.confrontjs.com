@@ -68,30 +68,31 @@ module.exports = [
         ]
     },
     {
-        title: "I Don't Care About Security (And Neither Should You)",
+        title: "Build your own test runner",
         lang: "en",
         abstract: `
         <p>
-            Remember when setting up an auth system was easy? Me neither.
-            From the signup, the login, password reset, and all the
-            validation in between it can easily take weeks if not months
-            to get something basic up and running. Then you have to deal
-            with all the security considerations. No thanks. During this
-            presentation, the attendees will be introduced to OIDC and
-            OAuth. They will learn how to leverage these technologies to
-            create secure applications, but most importantly, they will
-            learn why and how to delegate authorization and authentication
-            so they can focus on their real work and forget about all security.
+            In the javascript renaissance, more and more developers become
+            toolmakers; even a basic understanding of how a tool works can
+            help in the debugging process.
+        </p>
+        <p>
+            Together, we'll live code a mocha-like test runner from scratch.
+        </p>
+        <p>
+            While understanding the mechanism behind it, we'll create a small
+            CLI app, that runs our test suites, and reports the results to the
+            console.
         </p>
         `,
-        category: "Security",
+        category: "Live coding",
         tags: [
             "JavaScript",
-            "Security",
-            "APIs"
+            "Node.js",
+            "Test Runner"
         ],
         speakers: [
-            require('./people/joel-lord'),
+            require('./people/ran-yitzhaki'),
         ]
     },
     {

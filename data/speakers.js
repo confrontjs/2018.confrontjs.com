@@ -1,6 +1,6 @@
 module.exports = [
     require('./people/dominik-lubanski'),
-    require('./people/joel-lord'),
+    require('./people/ran-yitzhaki'),
     require('./people/lukasz-stankiewicz'),
     // require('./people/evojam-developer'),
     require('./people/michal-warda'),
