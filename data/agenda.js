@@ -34,7 +34,10 @@ module.exports = {
     },
     '11:30': talks[3],
     '12:00': {
-        title: "Lunch"
+        title: "Lunch",
+        abstract: `
+            Included in the price. Catering by eMeSeN.
+        `
     },
     '13:00': talks[4],
     '13:30': talks[5],
