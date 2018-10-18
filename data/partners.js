@@ -58,5 +58,9 @@ module.exports = [
     {
         name: "Eduweb",
         url: "https://eduweb.pl/"
+    },
+    {
+        name: "Angular Wrocław",
+        url: "https://www.meetup.com/AngularJS-Wroc%C5%82aw/"
     }
 ];
