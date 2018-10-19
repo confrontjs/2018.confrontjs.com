@@ -7,4 +7,5 @@ module.exports = [
     { name: "Visuality", level: "bronze", url: "https://www.visuality.pl/" },
     { name: "WalkMe", level: "silver", url: "https://www.walkme.com/" },
     { name: "Evojam", level: "silver", url: "https://evojam.com/" },
+    { name: "Lexus", level: "silver", url: "https://lexuswarszawa-zeran.pl/" },
 ];
