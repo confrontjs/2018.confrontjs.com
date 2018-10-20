@@ -62,5 +62,9 @@ module.exports = [
     {
         name: "Angular Wrocław",
         url: "https://www.meetup.com/AngularJS-Wroc%C5%82aw/"
+    },
+    {
+        name: "Wirtualna Polska",
+        url: "https://www.wp.pl/"
     }
 ];
