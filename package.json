@@ -2,7 +2,7 @@
     "private": true,
     "name": "confrontjs-homepage",
     "description": "Front-end conference 2018 in Warsaw",
-    "version": "1.0.30",
+    "version": "1.0.31",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
