@@ -66,5 +66,9 @@ module.exports = [
     {
         name: "Wirtualna Polska",
         url: "https://www.wp.pl/"
+    },
+    {
+        name: "IDE School",
+        url: "https://ide.school/"
     }
 ];
