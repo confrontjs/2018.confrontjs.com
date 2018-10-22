@@ -29,7 +29,7 @@ class SponsorsComponent extends Component {
                             <div className="row justify-content-around text-center">
                                 { sponsorPerLevel[level].map((sponsor, index) =>
                                     <div
-                                        className={ cx(`col-lg-4 col-sm-6 sponsor-${level}-item`) }
+                                        className={ cx(`col-lg-4 col-sm-6 my-2 sponsor-${level}-item`) }
                                         key={ index }
                                     >
                                         <a

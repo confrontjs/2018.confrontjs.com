@@ -8,4 +8,5 @@ module.exports = [
     { name: "WalkMe", level: "silver", url: "https://www.walkme.com/" },
     { name: "Evojam", level: "silver", url: "https://evojam.com/" },
     { name: "Lexus", level: "silver", url: "https://lexuswarszawa-zeran.pl/" },
+    { name: "Microsoft", level: "silver", url: "https://www.microsoft.com/" },
 ];
