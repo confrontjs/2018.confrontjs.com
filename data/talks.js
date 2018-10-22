@@ -52,16 +52,25 @@ module.exports = [
         ]
     },
     {
-        title: "TBA",
+        title: "Algebraic Data Types",
         lang: "en",
         abstract: `
         <p>
-
+            Most languages have the concept of types defined. It's always good
+            to feel safe working with the codebase.
+        </p>
+        <p>
+            One of approaches to successfully launch new project is to define
+            a domain model in the way your grandma used to make it. In this
+            talk I will present you a hipster way to fulfill this task using
+            the Algebraic Data Types.
         </p>
         `,
-        category: "",
+        category: "Programming patterns",
         tags: [
-
+            "Functional Programming",
+            "TypeScript",
+            "Category Theory"
         ],
         speakers: [
             require('./people/marcin-wadon'),
