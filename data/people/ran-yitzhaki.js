@@ -1,6 +1,6 @@
 module.exports = {
     name: 'Ran Yitzhaki',
-    position: 'Software developer @ Wix.com',
+    position: 'Software developer @ Wix',
     bio: {
         en: `
             Ran Yitzhaki, software engineer at Wix, building tools for
