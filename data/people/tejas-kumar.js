@@ -1,6 +1,6 @@
 module.exports = {
     name: 'Tejas Kumar',
-    position: 'Front-End Developer @ Contiamo GmbH',
+    position: 'Front-end Developer @ Contiamo GmbH',
     bio: {
         en: `
             Tejas has been coding since he was 8 years old. All this time later,
