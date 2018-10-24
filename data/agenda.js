@@ -17,7 +17,7 @@ module.exports = {
             </ul>
         `
     },
-    '9:30': talks[0],
+    '9:15': talks[0],
     '10:00': talks[1],
     '10:30': {
         title: "Social media break",
@@ -55,11 +55,10 @@ module.exports = {
     '15:30': talks[8],
     '16:00': talks[9],
     '16:30': talks[10],
-    '17:00': talks[11],
-    '17:30': {
+    '17:00': {
         title: 'Contest’s winner announcement'
     },
-    '17:45': {
+    '17:15': {
         title: 'Conference closing'
     },
     '18:00': {

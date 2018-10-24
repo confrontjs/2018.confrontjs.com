@@ -13,7 +13,7 @@ class DeadlineComponent extends Component {
                 <p className="h1">
                     <span className="badge badge-pill badge-danger align-middle">1</span> day =
                     <span className="badge badge-pill badge-warning align-middle">1</span> track =
-                    <span className="badge badge-pill badge-success align-middle">12</span> talks
+                    <span className="badge badge-pill badge-success align-middle">11</span> talks
                 </p>
             </main>
         );

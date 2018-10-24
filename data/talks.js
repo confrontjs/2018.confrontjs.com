@@ -23,35 +23,6 @@ module.exports = [
         ]
     },
     {
-        title: "Accessibility for All <3",
-        lang: "en",
-        abstract: `
-        <p>
-            Do you know, around the world 1 out of 5 people is not able
-            to access the apps and site we developer are making because
-            they are suffering from either - vision, speech, hear, physical
-            or cognitive problem. We forget while building the fancy apps
-            that we need to make the web accessible for 'All' reason
-            is that web was/is by default accessible to everyone but we
-            developers are doing something wrong. In this talk we are going
-            to see why accessibility is important, type of accessibility
-            we need to take care, what we as developers need to do to make
-            our web apps accessible for all.
-        </p>
-        `,
-        category: "Front-end",
-        tags: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "React",
-            "Angular.js"
-        ],
-        speakers: [
-            require('./people/neha-sharma'),
-        ]
-    },
-    {
         title: "Algebraic Data Types",
         lang: "en",
         abstract: `
@@ -137,28 +108,28 @@ module.exports = [
         ]
     },
     {
-        title: "Moving from Anarchy to Sustainability",
+        title: "Migrating from Monolith to Microfrontends",
         lang: "en",
         abstract: `
         <p>
-            This talk covers the architecture and challenges of moving
-            user-facing applications from startup mode to enterprise mode.
-            The problem of 100 different applications that use every JS
-            framework, 600+ API endpoints, multiple JavaScript dialects,
-            with an unproductive UX or UI components. We will cover
-            architecture to facilitate the migration of disparate
-            applications to a large scale Single Page web application
-            and the environment that supports it.
+            Recently, bol.com seller dashboards, which used to be a monolith,
+            decomposed into microfrontends defined by a business domain
+            concept. We experimented on different ways of microfrontend
+            techniques and picked one. Since each application can run
+            independently on their own minimal setup, this gave the teams
+            great flexibility, autonomy and yet improved the ownership
+            of the individuals. Despite some drawbacks, such as UX
+            consistency, performance issues, etc. this technique definitely
+            proved itself within bol.com. In this case study, you will hear
+            our gains from using microfrontends.
         </p>
         `,
-        category: "Software architecture",
+        category: "Case study",
         tags: [
-            "React",
-            "JavaScript GraphQL",
-            "REST"
+            "Microfronend"
         ],
         speakers: [
-            require('./people/peter-milne'),
+            require('./people/yaprak-ayazoglu'),
         ]
     },
     {
@@ -189,34 +160,6 @@ module.exports = [
         ],
         speakers: [
             require('./people/miszo-radomski'),
-        ]
-    },
-    {
-        title: "When Push Comes to Web",
-        lang: "en",
-        abstract: `
-        <p>
-            Like fire from mount Olympus, Push Notifications were stolen
-            from the native mobile applications, for the benefit of us
-            JavaScript developers. Now available for anyone, they are
-            a powerful tool for building user engagement.
-        </p>
-
-        <p>
-            In this talk I'll explain how they can improve your business
-            and how you can start using them. By the end you should have
-            a solid grasp of how Push Notifications work and be aware of
-            the common pitfalls to avoid.
-        </p>
-        `,
-        category: "Introduction of the technology",
-        tags: [
-            "Push Notifications",
-            "PWA",
-            "Mobile"
-        ],
-        speakers: [
-            require('./people/nadia-ginalska'),
         ]
     },
     {
@@ -260,6 +203,34 @@ module.exports = [
         ]
     },
     {
+        title: "When Push Comes to Web",
+        lang: "en",
+        abstract: `
+        <p>
+            Like fire from mount Olympus, Push Notifications were stolen
+            from the native mobile applications, for the benefit of us
+            JavaScript developers. Now available for anyone, they are
+            a powerful tool for building user engagement.
+        </p>
+
+        <p>
+            In this talk I'll explain how they can improve your business
+            and how you can start using them. By the end you should have
+            a solid grasp of how Push Notifications work and be aware of
+            the common pitfalls to avoid.
+        </p>
+        `,
+        category: "Introduction of the technology",
+        tags: [
+            "Push Notifications",
+            "PWA",
+            "Mobile"
+        ],
+        speakers: [
+            require('./people/nadia-ginalska'),
+        ]
+    },
+    {
         title: "RxJS: Tailor-made, or is it?",
         lang: "en",
         abstract: `
@@ -295,31 +266,6 @@ module.exports = [
         ]
     },
     {
-        title: "Migrating from Monolith to Microfrontends",
-        lang: "en",
-        abstract: `
-        <p>
-            Recently, bol.com seller dashboards, which used to be a monolith,
-            decomposed into microfrontends defined by a business domain
-            concept. We experimented on different ways of microfrontend
-            techniques and picked one. Since each application can run
-            independently on their own minimal setup, this gave the teams
-            great flexibility, autonomy and yet improved the ownership
-            of the individuals. Despite some drawbacks, such as UX
-            consistency, performance issues, etc. this technique definitely
-            proved itself within bol.com. In this case study, you will hear
-            our gains from using microfrontends.
-        </p>
-        `,
-        category: "Case study",
-        tags: [
-            "Microfronend"
-        ],
-        speakers: [
-            require('./people/yaprak-ayazoglu'),
-        ]
-    },
-    {
         title: "You've been doing CSS wrong",
         lang: "en",
         abstract: `
@@ -349,6 +295,31 @@ module.exports = [
         ],
         speakers: [
             require('./people/michal-warda'),
+        ]
+    },
+    {
+        title: "Moving from Anarchy to Sustainability",
+        lang: "en",
+        abstract: `
+        <p>
+            This talk covers the architecture and challenges of moving
+            user-facing applications from startup mode to enterprise mode.
+            The problem of 100 different applications that use every JS
+            framework, 600+ API endpoints, multiple JavaScript dialects,
+            with an unproductive UX or UI components. We will cover
+            architecture to facilitate the migration of disparate
+            applications to a large scale Single Page web application
+            and the environment that supports it.
+        </p>
+        `,
+        category: "Software architecture",
+        tags: [
+            "React",
+            "JavaScript GraphQL",
+            "REST"
+        ],
+        speakers: [
+            require('./people/peter-milne'),
         ]
     }
 ];

@@ -6,7 +6,6 @@ module.exports = [
     require('./people/michal-warda'),
     require('./people/miszo-radomski'),
     require('./people/nadia-ginalska'),
-    require('./people/neha-sharma'),
     require('./people/peter-milne'),
     require('./people/tejas-kumar'),
     require('./people/yaprak-ayazoglu'),
