@@ -70,5 +70,9 @@ module.exports = [
     {
         name: "IDE School",
         url: "https://ide.school/"
+    },
+    {
+        name: "Kids Code Fun",
+        url: "https://kidscodefun.com/"
     }
 ];
