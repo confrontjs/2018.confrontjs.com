@@ -74,5 +74,9 @@ module.exports = [
     {
         name: "Kids Code Fun",
         url: "https://kidscodefun.com/"
+    },
+    {
+        name: "Angular Warsaw",
+        url: "https://www.meetup.com/Angular-Warsaw/"
     }
 ];
