@@ -41,7 +41,6 @@ class VenueComponent extends Component {
                     </ReactSiema>
                 </div>
             </div>
-
         );
     }
 }

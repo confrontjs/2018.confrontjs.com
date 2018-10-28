@@ -9,7 +9,7 @@ import CountdownComponent from '../components/countdown';
 import VenueComponent from '../components/venue';
 import AgendaComponent from '../components/agenda';
 import DeadlineComponent from '../components/deadline';
-import SpeakersComponent from '../components/speakers';
+import VenueMapComponent from '../components/venue-map';
 import WhyComponent from '../components/why';
 import SponsorsComponent from '../components/sponsors';
 import PartnersComponent from '../components/partners';
@@ -30,6 +30,7 @@ class Homepage extends Component {
                 <IntroComponent />
                 <CountdownComponent />
                 <VenueComponent />
+                <VenueMapComponent />
                 <AgendaComponent />
                 <DeadlineComponent />
                 <WhyComponent />
