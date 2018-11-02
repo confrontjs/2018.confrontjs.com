@@ -4,16 +4,7 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 
 import MenuComponent from '../components/menu';
-import IntroComponent from '../components/intro';
-import CountdownComponent from '../components/countdown';
-import VenueComponent from '../components/venue';
-import AgendaComponent from '../components/agenda';
-import DeadlineComponent from '../components/deadline';
 import SpeakersComponent from '../components/speakers';
-import WhyComponent from '../components/why';
-import SponsorsComponent from '../components/sponsors';
-import PartnersComponent from '../components/partners';
-import OrganizersComponent from '../components/organizers';
 import ContactComponent from '../components/contact';
 import NewsletterComponent from '../components/newsletter';
 import CodeOfConductComponent from '../components/code-of-conduct';

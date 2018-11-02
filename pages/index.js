@@ -5,7 +5,6 @@ import Head from 'next/head';
 
 import MenuComponent from '../components/menu';
 import IntroComponent from '../components/intro';
-import CountdownComponent from '../components/countdown';
 import VenueComponent from '../components/venue';
 import AgendaComponent from '../components/agenda';
 import DeadlineComponent from '../components/deadline';
@@ -28,9 +27,6 @@ class Homepage extends Component {
                 </Head>
                 <MenuComponent/>
                 <IntroComponent />
-                <CountdownComponent />
-                <VenueComponent />
-                <VenueMapComponent />
                 <AgendaComponent />
                 <DeadlineComponent />
                 <WhyComponent />
@@ -40,6 +36,8 @@ class Homepage extends Component {
                 <ContactComponent />
                 <NewsletterComponent />
                 <CodeOfConductComponent />
+                <VenueComponent />
+                <VenueMapComponent />
                 <FooterComponent />
             </div>
         );

@@ -5,7 +5,7 @@ class VenueMapComponent extends Component {
         return (
             <div className="bg-primary text-white">
                 <div className="py-5 text-center" id="venue-map">
-                    <h2 className="h2">
+                    <h2 className="h2 mb-4">
                         Pl. Konesera 10, 03-736 Warszawa
                     </h2>
 
