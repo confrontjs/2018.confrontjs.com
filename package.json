@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "confrontjs-homepage",
+    "name": "confrontjs.com",
     "description": "Front-end conference 2018 in Warsaw",
     "version": "1.0.41",
     "license": "MIT",
@@ -36,6 +36,6 @@
     "devDependencies": {},
     "repository": {
         "type": "git",
-        "url": "git@github.com:piecioshka/www.confrontjs.com.git"
+        "url": "git@github.com:piecioshka/2018.confrontjs.com.git"
     }
 }
